@@ -1,0 +1,265 @@
+/*********** telegram Id = @a_silent *************/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/***************** Start Project ****************/
+
+
+.register {
+    width: 800px;
+    height: 450px;
+    margin: 200px auto;
+    -webkit-box-shadow: 5px 5px 10px 5px #ccc;
+    box-shadow: 5px 5px 10px 5px #ccc;
+    border-radius: 10px;
+}
+
+
+
+
+.left {
+	width: 40%;
+     border-radius: 10px 0 0 10px;
+    height: 100%;
+    float: left;
+    background: linear-gradient(195deg, rgba(0, 151, 167, 1) 0%, rgba(0, 103, 124, 1) 100%);
+    text-align: center;
+    padding-top: 150px;
+    margin: 0 auto;
+    line-height: 20px;
+    color: white;
+     -webkit-box-shadow: inset -4px 1px 9px -5px #000;
+     box-shadow: inset -4px 1px 9px -5px #000;
+}
+
+
+.left h1 {
+    
+    font-weight: bold;
+    font-size: 20px;
+	
+}
+
+
+.left p{
+    margin-top: 20px
+	
+}
+
+.left a {
+	color: white;
+    border: 1px solid #fff;
+    padding: 15px 50px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.left a:hover{
+    background-color: #fff;
+    color: #000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.right{
+    width: 60%;
+    height: 100%;
+    float: right;
+    border-radius: 0 20px 20px 0;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.right h2 {
+	color: #0097A7;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.right p {
+	margin-top: 20px;
+}
+
+.form input{
+    width: 70%;
+    background-color: #eeeeee;
+    padding: 15px 15px 15px 45px;
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+
+.form input:focus{
+    outline: none;
+    background-color: #E0E0E0;
+}
+
+.form a{
+    
+    border: 1px solid #0097A7;
+    background-color: #0097A7;
+    padding: 10px 30px;
+    margin-top: 20px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    
+}
+
+.form a:hover{
+    border: 1px solid #0097A7;
+    background-color: #fff;
+    cursor: pointer;
+    color: #000;
+}
+
+
+.input-logo{
+    width: 20px;
+    position: relative;
+    top: 5px;
+    left: 35px;
+}
+
+
+
+
